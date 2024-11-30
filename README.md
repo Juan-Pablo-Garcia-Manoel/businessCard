@@ -42,9 +42,9 @@ O sistema retornará os campos pré-selecionados configurados no projeto.
 
 **ATENÇÃO**: O uso dos serviços Azure pode gerar custos, que são cobrados diretamente pela plataforma. **Antes de usar o software, consulte as tarifas e encargos relacionados ao uso dos serviços conforme sua configuração na Azure.**
 
-**O Streamlit coleta dados estátisticos de uso, para negar está coleta acesse a pasta do Streamlit em seu computador "C:\Users\seu_usuario\.streamlit", em seguida crie um arquivo chamado config e adicione a seguinte linha "[browser] gatherUsageStats = false" ** no arquivo credentials adicione a mesma linha, e salve ambos os arquivos. 
+** O Streamlit coleta dados estátisticos de uso, para negar está coleta acesse a pasta do Streamlit em seu computador "C:\Users\seu_usuario\.streamlit", em seguida crie um arquivo chamado config e adicione a seguinte linha "[browser] gatherUsageStats = false" ** no arquivo credentials adicione a mesma linha, e salve ambos os arquivos. 
 
-**O Streamlit coleta dados estatísticos de uso. Para desativar essa coleta, siga os passos abaixo:**
+** O Streamlit coleta dados estatísticos de uso. Para desativar essa coleta, siga os passos abaixo:**
 
 1. Acesse a pasta do Streamlit em seu computador: `C:\Users\seu_usuario\.streamlit`.
 
