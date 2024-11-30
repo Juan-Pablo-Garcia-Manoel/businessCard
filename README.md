@@ -1,6 +1,6 @@
 # Validador de Documentos - Azure
 
-Este projeto é um estudo prático que utiliza a linguagem Python para realizar a validação de um cartão de visitas através da integração com os serviços da Azure. O sistema permite enviar arquivos de imagem para um contêiner de armazenamento na Azure e realiza a validação desses documentos, retornando campos pré-selecionados.
+Este projeto é um estudo prático desenvolvido em Python, seguindo o projeto do professor Henrique Eduardo Souza, relacionado à validação de cartão de crédito. O sistema permite realizar a validação de um cartão de visitas por meio da integração com os serviços da Azure. Ele possibilita o envio de arquivos de imagem para um contêiner de armazenamento na Azure e realiza a validação desses documentos, retornando campos pré-selecionados. Para utilizá-lo, é necessário configurar as credenciais do Azure nas classes específicas do projeto.
 
 ## Pré-requisitos
 
@@ -72,7 +72,7 @@ Esteja ciente de que o consumo dos serviços é cobrado com base nas suas config
 
 # Document Validator - Azure
 
-This project is a practical study that uses the Python programming language to validate a business card through integration with Azure services. The system allows you to upload image files to an Azure storage container and performs validation on these documents, returning pre-selected fields.
+This project is a practical study developed in Python, following the project by Professor Henrique Eduardo Souza, related to credit card validation. The system allows the validation of a business card through integration with Azure services. It enables the uploading of image files to an Azure storage container and performs validation of these documents, returning pre-selected fields. To use it, it is necessary to configure Azure credentials in the specific classes of the project.
 
 ## Prerequisites
 
