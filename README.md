@@ -33,3 +33,30 @@ Na página, você poderá enviar arquivos nos formatos "png", "jpg" ou "jpeg".
 O sistema enviará o arquivo para o contêiner de armazenamento de arquivos da Azure.
 A imagem será enviada para o validador de documentos, com tamanho máximo permitido de até 200 MB.
 O sistema retornará os campos pré-selecionados configurados no projeto.
+
+## ⚠️ **Importante**: Custo dos Serviços Azure
+
+**ATENÇÃO**: O uso dos serviços Azure pode gerar custos, que são cobrados diretamente pela plataforma. **Antes de usar o software, consulte as tarifas e encargos relacionados ao uso dos serviços conforme sua configuração na Azure.**
+
+**O Streamlit coleta dados estátisticos de uso, para negar está coleta acesse a pasta do Streamlit em seu computador "C:\Users\seu_usuario\.streamlit", em seguida crie um arquivo chamado config e adicione a seguinte linha "[browser] gatherUsageStats = false" ** no arquivo credentials adicione a mesma linha, e salve ambos os arquivos. 
+
+**O Streamlit coleta dados estatísticos de uso. Para desativar essa coleta, siga os passos abaixo:**
+
+1. Acesse a pasta do Streamlit em seu computador: `C:\Users\seu_usuario\.streamlit`.
+2. Crie um arquivo chamado `config.toml` (caso não exista) e adicione a seguinte linha:
+   ```toml
+   [browser]gatherUsageStats = false
+  ``
+3. No arquivo credentials.toml (também localizado na mesma pasta), adicione a mesma linha acima.
+Nota importante:
+
+Sempre após executar o projeto, verifique e, se necessário, crie o arquivo config.toml contendo o campo mencionado acima.
+Se você interromper o servidor, será necessário excluir o arquivo, executar o projeto novamente e recriar o arquivo config.toml.
+Certifique-se de que ambos os arquivos estejam no formato .toml e salve as alterações. Isso impedirá a coleta de dados de uso pelo Streamlit.
+
+Esteja ciente de que o consumo dos serviços é cobrado com base nas suas configurações e uso na plataforma da Azure.
+
+## Observações:
+- Este software está em constante aprimoramento e novos recursos serão adicionados conforme o avanço nos meus estudos.
+
+Espero que o software seja útil para suas necessidades na validação de documentos utilizando os serviços da Azure!
