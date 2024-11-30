@@ -58,7 +58,7 @@ Nota importante:
 Sempre após executar o projeto, verifique e, se necessário, crie o arquivo config.toml contendo o campo mencionado acima.
 Se você interromper o servidor, será necessário excluir o arquivo, executar o projeto novamente e recriar o arquivo config.toml.
 Certifique-se de que ambos os arquivos estejam no formato .toml e salve as alterações. Isso impedirá a coleta de dados de uso pelo Streamlit.
-A criação deste arquivo é orientada pelo proprio Streamlit no caso da recusa da coleta de dados.
+A criação deste arquivo é orientada pelo proprio Streamlit, no caso da recusa da coleta de dados.
 
 Esteja ciente de que o consumo dos serviços é cobrado com base nas suas configurações e uso na plataforma da Azure.
 
