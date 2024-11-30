@@ -67,3 +67,69 @@ Esteja ciente de que o consumo dos serviços é cobrado com base nas suas config
 - Este software está em constante aprimoramento e novos recursos serão adicionados conforme o avanço nos meus estudos.
 
 Espero que o software seja útil para suas necessidades na validação de documentos utilizando os serviços da Azure!
+
+***
+
+# Document Validator - Azure
+
+This project is a practical study that uses the Python programming language to validate a business card through integration with Azure services. The system allows you to upload image files to an Azure storage container and performs validation on these documents, returning pre-selected fields.
+
+## Prerequisites
+
+Before running the project, make sure Python is installed and follow the steps below to set up the environment.
+
+## Setup and Execution Steps
+
+### 1. Install Streamlit (web server):
+
+```bash
+pip install streamlit
+```
+
+### 2. Install the necessary packages:
+
+Use the requirements.txt file to install the project's specific dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Streamlit server:
+
+Start the server to run the project in your browser:
+
+```bash
+python -m streamlit run .\app.py
+```
+
+### How to Use
+
+After running the server, a web page will automatically open in your browser. On the page, you can upload files in "png", "jpg", or "jpeg" formats. The system will send the file to the Azure storage container. The image will then be sent to the document validator, with a maximum file size of up to 200 MB. The system will return the pre-selected fields configured in the project.
+
+## ⚠️ **Important**: Azure Services Cost
+
+**ATTENTION**: Using Azure services may incur costs, which are charged directly by the platform. Before using the software, review the rates and charges related to the use of the services according to your Azure configuration.**
+
+** Streamlit collects usage statistics. To disable this collection, follow the steps below: **
+
+1. Navigate to the Streamlit folder on your computer: `C:\Users\your_user\.streamlit`.
+
+2. Create a file named `config.toml`  (if it doesn’t exist) and add the following line:
+
+   ```toml
+   [browser]gatherUsageStats = false
+   
+3. In the credentials.toml file (also located in the same folder), add the same line above.
+
+Important Note:
+
+After running the project, always check and, if necessary, create the config.toml file with the mentioned field. If you stop the server, you will need to delete the file, run the project again, and recreate the config.toml file. Ensure both files are in .toml format and save the changes. This will prevent Streamlit from collecting usage data. This file creation is suggested by Streamlit in case you refuse the data collection.
+
+Be aware that the consumption of services is billed based on your configurations and usage on the Azure platform.
+
+## Observations:
+
+- This software is constantly being improved, and new features will be added as my studies progress.
+
+- I hope this software proves useful for your document validation needs using Azure services!
+
