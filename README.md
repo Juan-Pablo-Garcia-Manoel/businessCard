@@ -66,7 +66,7 @@ Esteja ciente de que o consumo dos serviços é cobrado com base nas suas config
 
 - Este software está em constante aprimoramento e novos recursos serão adicionados conforme o avanço nos meus estudos.
 
-Espero que o software seja útil para suas necessidades na validação de documentos utilizando os serviços da Azure!
+- Espero que o software seja útil para suas necessidades na validação de documentos utilizando os serviços da Azure!
 
 ***
 
